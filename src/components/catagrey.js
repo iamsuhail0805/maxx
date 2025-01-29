@@ -13,6 +13,7 @@ function Catagrry(){
         <div>
             {data ?(
                 <div className="thinks2">
+                    <h2 className="MAXX2">MAXX <br></br> E-Commerce</h2>
                      {data.map((item)=>
                         
                           <a className="thinks" href={item}><span>{item}</span></a>

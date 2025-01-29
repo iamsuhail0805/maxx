@@ -1,9 +1,10 @@
 function Signin (){
     return(
+        <div  className="Signin">
         <div className="signhead" >
             
 
-            <form>
+            <form className="new">
                  <div className="signdiv">   
                 <h1 className="sightext">Sighin</h1>
                 <input type="text" placeholder="Enter Username" name="uname" required></input><br></br> 
@@ -18,6 +19,7 @@ function Signin (){
             </form>
 
             
+        </div>
         </div>
         )
 }

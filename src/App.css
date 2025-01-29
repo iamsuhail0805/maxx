@@ -74,6 +74,13 @@ header input{
   background-color: maroon;
   margin-top: 10px;
   color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b1:hover{
+  background-color: rgb(223, 7, 243);
+  color: black;
 }
 .b2{
   border-radius: 10px;
@@ -82,7 +89,14 @@ header input{
   margin-top: 10px;
   padding: 10px;
   color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* margin-left: 10px; */
+}
+
+.b2:hover{
+  background-color: rgb(223, 7, 243);
+  color: black;
 }
 #icon2{
   position: absolute;
@@ -179,6 +193,10 @@ header input{
 .electronics p{
   font-size: 12px;
 }
+.thinks:hover{
+  color: white;
+  background-color: black;
+}
 
 
 
@@ -192,27 +210,41 @@ header input{
   padding: 10px;
   color: black;
   text-decoration: none;
-  border: solid 2px maroon;
-/* height: 500px; */
-
+  border: solid 2px rgb(231, 115, 115);
+  height: 500px;
+  width: 100px;
+  
+}
+.MAXX2{
+  color: rgb(212, 202, 202);
+  padding-left: 450px;
+  padding-bottom: 100px;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
   
 }
 
- /* .thinks:hover{
-  background-color: black;
-  color: white;
- } */
+.thinks2{
+  height: 700px;
+  /* width: 100px; */
+  padding-top: 50px;
+  background-color: rgb(36, 17, 17);  
+}
 
 
+.signhead1{
+  /* background-image: url(./components/); */
+  /* height: 650px; */
+}
 
-.signhead{
-  margin-top: 250px;
+.new{
   text-align: center;
   border: 1px solid #f7f4f4;
   width: 400px;
   height: 400px;
   background-color: rgb(214, 127, 127);
-  margin-left: 550px;
+  margin-left: 500px;
+  margin-top: 100px;
 }
 .signhead input{
   padding: 10px;
@@ -228,6 +260,7 @@ header input{
 }
 .loginpage{
   padding-top: 25px;
+  
 }
 
 .loginpagee{
@@ -236,6 +269,7 @@ header input{
   color: maroon;
   padding: 12px;
   border-radius: 30px;
+  cursor: pointer;
 }
 .loginpagee:hover{
   background-color: blueviolet;
@@ -247,9 +281,25 @@ header input{
   padding-top: 20px;
 }
 .confrim{
-  border: solid 1px red;
+  /* border: solid 1px red;
+  padding: 5px;
+  margin: 50px; */
   /* margin-left: 100px; */
+  background-color: rgb(5, 152, 250);
+  text-decoration: none;
+  color: maroon;
+  padding: 12px;
+  border-radius: 30px;
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 160px;
+  cursor: pointer;
 }
+.confrim:hover{
+  background-color: blueviolet;
+}
+
+
 .thinks2{
   border: 1px solid red;
 
